@@ -1,0 +1,122 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border: 1px solid seashell;
+  top: 0px;
+}
+
+.logo {
+  height: 50px;
+  /* margin-right: 100px; */
+  padding-left: 10px;
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 0 10px;
+}
+
+.nav li a {
+  height: 100%;
+  color: white;
+}
+
+/* .mission {
+  margin-top: 200px;
+} */
+
+.mission-container {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  max-width: 1200px;
+  margin: 40px auto 40px auto;
+  display: flex;
+}
+
+.text-over {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+.featured {
+  margin-bottom: 3.2rem;
+}
+
+.featured-container {
+  max-width: 1000px;
+  background-color: orange;
+  margin: auto;
+}
+
+img {
+  display: inline-flex;
+  width: 300px;
+  height: 200px;
+  align-items: flex-start;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.locations {
+  display: block;
+  width: 1200px;
+  height: 750px;
+  margin: auto;
+  background-image: url(./image/img-locations-background.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-margin-bottom-collapse: 400px;
+  margin-top: 80px;
+  margin-bottom: 400px;
+}
+
+.locations-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+  position: relative;
+}
+
+.locations-title {
+  font-size: 2rem;
+  position: absolute;
+  top: 20%;
+}
+
+.location-card {
+  transform: translateY(55%);
+  padding: 1rem 0;
+  background-color: black;
+  width: 300px;
+  height: auto;
+  align-items: center;
+}
